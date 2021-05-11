@@ -1,6 +1,23 @@
+$primary-color: #352D39;
+$secondary-color: #6D435A;
+$third-color: #797D81;
+
+
 .navbar-main-container{
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-between;
+
+}
+.logo-text-div{
+    border: 1px solid #000;
+    padding:15px;
+    margin: 15px;
+}
+
+.h1{
+    border: 1px solid #909090;
+    padding: 15px;
+    color: $secondary-color;
 }
