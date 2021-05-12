@@ -3,19 +3,23 @@ $secondary-color: #6D435A;
 $third-color: #797D81;
 
 
+.container{
+    background: $primary-color;
+    color: $third-color;
+}
+
 .navbar-main-container{
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-between;
-    border: 2px solid #000;
 
 }
 
 .logo-text-div .h1{
     font-size:25px;
     padding: 15px;
-    margin: 0 25px;
+    margin: 10px 25px;
     font-family: sans-serif;
 
 }
@@ -27,4 +31,10 @@ $third-color: #797D81;
     margin: 0 15px;
     text-transform: uppercase;
     font-family: sans-serif;
+    transition: all .5s ease;
+}
+
+.navbar-left ul li:hover{
+    color: #fff;
+    cursor: pointer;
 }
