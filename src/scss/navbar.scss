@@ -1,11 +1,12 @@
 $primary-color: #352D39;
 $secondary-color: #6D435A;
 $third-color: #797D81;
+$white: #fff;
 
 
 .container{
     background: $primary-color;
-    color: $third-color;
+    
 }
 
 .navbar-main-container{
@@ -20,6 +21,7 @@ $third-color: #797D81;
     font-size:25px;
     padding: 15px;
     margin: 10px 25px;
+    color: $third-color;
     font-family: sans-serif;
 
 }
@@ -32,6 +34,7 @@ $third-color: #797D81;
     text-transform: uppercase;
     font-family: sans-serif;
     transition: all .5s ease;
+    color: $third-color;
 }
 
 .navbar-left ul li:hover{
