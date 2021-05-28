@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from './navbar';
 import ContentBox from './content-box';
 
 export default function Home(){
